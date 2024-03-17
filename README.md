@@ -1,30 +1,36 @@
-# React + TypeScript + Vite
+<h1 align="center"> Twitter UI </h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+Projeto desenvolvido na masterclass de React feito pela Rocketseat
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
+  <img alt="projeto DevLinks" src="./public/preview.jpg" width="100%">
+</p>
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologias
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- Configure the top-level `parserOptions` property like this:
+- ReactJS
+- TypeScript
+- ReactRouter
+- Git e Github
+- Figma
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## 💻 Projeto
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+O Twitter UI é um clone da interface do twitter feito com React.
+
+- [Acesse o projeto no github clicando aqui](https://github.com/HenriqueSC23/twitter-ui)
+
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbm9HdnhOUjZQV2JwaWhRUzZlaG9NYUdjNC0tQXxBQ3Jtc0trLV9fSnlDR1RqVV9ZQThjdndyN3llNFlQV0dKUlZaSjZDUmE3bzExeFRBRjhsVXdXR0hweDVpNnZnVVprZzY3bFJFRlRmQ0NiVnM3Nko0YUcyX0loV2JrSlg5R1dzMHRiY25PMjZWamhjZjZnVm95RQ&q=https%3A%2F%2Fwww.figma.com%2Fcommunity%2Ffile%2F1202694130789327431&v=99okStmx-7c). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+
