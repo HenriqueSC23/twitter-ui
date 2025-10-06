@@ -14,9 +14,12 @@ export function Status() {
     ])
 
     useEffect(() => {
-        textAreaRef.current.style.height = "auto"
-        textAreaRef.current.style.height =  textAreaRef.current.scrollHeight + "px";
-    }, [newAnswer])
+      if (textAreaRef.current) {
+        textAreaRef.current.style.height = "auto";
+        textAreaRef.current.style.height = textAreaRef.current.scrollHeight + "px";
+      }
+    }, [newAnswer]);
+
 
   function createNewAnswer(event: FormEvent) {
     event.preventDefault()
