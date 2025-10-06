@@ -5,7 +5,7 @@ import { Tweet } from "../Tweet"
 import { FormEvent, KeyboardEvent, useEffect, useRef, useState } from 'react'
 
 export function Status() {
-    const textAreaRef = useRef(null);
+    const textAreaRef = useRef<HTMLTextAreaElement | null>(null);
     const [newAnswer, setNewAnswer] = useState('');
     const [answer, setAnswer] = useState([
         'concordo',
@@ -19,7 +19,6 @@ export function Status() {
         textAreaRef.current.style.height = textAreaRef.current.scrollHeight + "px";
       }
     }, [newAnswer]);
-
 
   function createNewAnswer(event: FormEvent) {
     event.preventDefault()
